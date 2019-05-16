@@ -1,9 +1,9 @@
 import os
 import telebot
 
-hostname = "google.com"
-channel = '@test'
-token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+hostname = "google.co"
+channel = '@irgping'
+token = '688285869:AAE4lVtVdfeQcRAxQ2H5zxYM724IOxRpsL8'
 
 response = os.system('ping ' + hostname)
 bot = telebot.TeleBot(token)
